@@ -3,6 +3,7 @@
     "name": "firstproject",
     "slug": "firstproject",
     "version": "1.0.0",
+    "description": "this is iti tasks",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,6 +23,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1de2811-ab3e-4dc1-bad1-8ad865faa4a8"
+      }
+    },
+    "owner": "konuz",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b1de2811-ab3e-4dc1-bad1-8ad865faa4a8"
     }
   }
 }
